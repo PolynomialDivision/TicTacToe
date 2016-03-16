@@ -18,3 +18,6 @@ SOURCES += main.cpp\
 HEADERS  += tictactoe.h
 
 FORMS    += tictactoe.ui
+
+RESOURCES += \
+    graphics.qrc
