@@ -18,11 +18,15 @@ void TicTacToe::handleClick(int x, int y, QPushButton *field)
 {
     int ret = game->setField(x,y);
     switch(ret){
+        case 0:
+            break;
         case -1:
-            field->setText("WON!");
+            field->setText("X");
+            won('X');
             break;
         case -2:
-            field->setText("WON!");
+            field->setText("O");
+            won('O');
             break;
         case 1:
             field->setText("X");
@@ -33,6 +37,15 @@ void TicTacToe::handleClick(int x, int y, QPushButton *field)
 
     }
 }
+
+void TicTacToe::won(char winner){
+    (void) winner;
+    QList<QPushButton *> buttonsList = this->findChildren<QPushButton *>();
+    for (int i = 0; i < buttonsList.count(); i++){
+        buttonsList.at(i)->setEnabled(false);
+    }
+}
+
 void TicTacToe::on_Field_0_0_clicked()
 {
     handleClick(0,0,ui->Field_0_0);

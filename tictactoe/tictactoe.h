@@ -39,6 +39,7 @@ private slots:
 private:
     Ui::TicTacToe *ui;
     void handleClick(int,int,  QPushButton *);
+    void won(char winner);
     Game *game;
 };
 
