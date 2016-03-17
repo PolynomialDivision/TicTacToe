@@ -76,7 +76,7 @@ int Field::win_diagonal(int player){
 
 	count = 0;
 	for(int i = 0; i < 3; i++){
-		if(this->world[i][3-i] == player){
+        if(this->world[i][2-i] == player){
 				count++;
 				if(count == 3){
 					return 1;
