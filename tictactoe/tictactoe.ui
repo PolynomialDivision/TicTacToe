@@ -38,8 +38,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>121</width>
-      <height>91</height>
+      <width>131</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -57,10 +57,10 @@
    <widget class="QPushButton" name="Field_0_1">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>137</x>
       <y>0</y>
-      <width>121</width>
-      <height>91</height>
+      <width>129</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -78,10 +78,10 @@
    <widget class="QPushButton" name="Field_0_2">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>273</x>
       <y>0</y>
-      <width>121</width>
-      <height>91</height>
+      <width>125</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -101,8 +101,8 @@
      <rect>
       <x>0</x>
       <y>80</y>
-      <width>121</width>
-      <height>91</height>
+      <width>131</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -120,10 +120,10 @@
    <widget class="QPushButton" name="Field_1_1">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>137</x>
       <y>80</y>
-      <width>121</width>
-      <height>91</height>
+      <width>129</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -141,10 +141,10 @@
    <widget class="QPushButton" name="Field_1_2">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>273</x>
       <y>80</y>
-      <width>121</width>
-      <height>91</height>
+      <width>125</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -163,9 +163,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>160</y>
-      <width>121</width>
-      <height>91</height>
+      <y>162</y>
+      <width>131</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -183,10 +183,10 @@
    <widget class="QPushButton" name="Field_2_1">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>170</y>
-      <width>121</width>
-      <height>91</height>
+      <x>137</x>
+      <y>162</y>
+      <width>129</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
@@ -204,10 +204,10 @@
    <widget class="QPushButton" name="Field_2_2">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>170</y>
-      <width>121</width>
-      <height>91</height>
+      <x>273</x>
+      <y>162</y>
+      <width>125</width>
+      <height>80</height>
      </rect>
     </property>
     <property name="font">
