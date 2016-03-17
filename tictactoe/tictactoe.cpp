@@ -1,5 +1,6 @@
 #include "tictactoe.h"
 #include "ui_tictactoe.h"
+#include "options.h"
 
 TicTacToe::TicTacToe(QWidget *parent) :
     QMainWindow(parent),
@@ -97,4 +98,26 @@ void TicTacToe::on_Field_2_2_clicked()
 {
     handleClick(2,2,ui->Field_2_2);
 
+}
+
+void TicTacToe::on_actionNew_Game_triggered()
+{
+    resetGame();
+}
+
+void TicTacToe::resetGame(void){
+
+    game->resetFields();
+
+    QList<QPushButton *> buttonsList = this->findChildren<QPushButton *>();
+    for (int i = 0; i < buttonsList.count(); i++){
+        buttonsList.at(i)->setText("");
+        buttonsList.at(i)->setEnabled(true);
+    }
+}
+
+void TicTacToe::on_actionOptions_triggered()
+{
+    options = new Options(this);
+    options->show();
 }

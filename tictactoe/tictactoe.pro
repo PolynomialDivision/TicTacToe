@@ -15,13 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         tictactoe.cpp \
     game.cpp \
-    field.cpp
+    field.cpp \
+    options.cpp
 
 HEADERS  += tictactoe.h \
     field.h \
-    game.h
+    game.h \
+    options.h
 
-FORMS    += tictactoe.ui
+FORMS    += tictactoe.ui \
+    options.ui
 
 RESOURCES += \
     graphics.qrc

@@ -8,6 +8,7 @@ class Game
 public:
     Game();
     int setField(int x,int y);
+    void resetFields(void);
 
 private:
     int switch_player(int player);

@@ -12,6 +12,14 @@ Field::Field(void){
 	}
 }
 
+void Field::reset_field(void){
+    for(int i = 0; i < 3; i++){
+        for(int j = 0; j < 3; j++){
+            this->world[i][j] = 0;
+        }
+    }
+}
+
 int Field::set_field(int x, int y, int player){
     if(this->world[x][y] != 0){
         return -1;

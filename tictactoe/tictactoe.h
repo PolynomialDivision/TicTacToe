@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "ui_tictactoe.h"
 #include "game.h"
+#include "options.h"
 
 namespace Ui {
 class TicTacToe;
@@ -36,10 +37,17 @@ private slots:
 
     void on_Field_2_2_clicked();
 
+    void on_actionNew_Game_triggered();
+
+    void on_actionOptions_triggered();
+
 private:
     Ui::TicTacToe *ui;
     void handleClick(int,int,  QPushButton *);
     void won(char winner);
+    void resetGame(void);
+
+    Options *options;
     Game *game;
 };
 
